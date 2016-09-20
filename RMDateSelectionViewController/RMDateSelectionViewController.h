@@ -171,12 +171,6 @@ typedef void (^RMDateCancelBlock)(RMDateSelectionViewController *vc);
  */
 @property (assign, nonatomic) BOOL backgroundTapsDisabled;
 
-/// @name Appearance
-
-/**
- *  Used to set the preferred status bar style.
- */
-@property (nonatomic, assign, readwrite) UIStatusBarStyle preferredStatusBarStyle;
 
 /**
  *  Used to hide the status bar.
